@@ -24,6 +24,7 @@ namespace ProductsManagement.Features.Category
         Description = "This API will show all categories",
         OperationId = "ShowCategories",
         Tags = new[] { "Categories" })]
+        [ProducesResponseType(200,Type = typeof(IEnumerable<CategoryModel>))]
         public async Task<IActionResult> GetAllCategories()
         {
             var categories = await _mediator.Send(new GetAllCategoriesQuery());

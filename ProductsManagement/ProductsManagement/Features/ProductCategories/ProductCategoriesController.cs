@@ -55,6 +55,7 @@ namespace ProductsManagement.Features.ProductCategories
             Description = "This API retrieves all entries from the product-category bridge table",
             OperationId = "GetAllProductCategory",
             Tags = new[] { "ProductCategories" })]
+            [ProducesResponseType(200,Type = typeof(IEnumerable<ProductCategory>))]
         public async Task<IActionResult> GetAllProductCategory()
         {
             var query = new GetAllProductCategoryQuery();

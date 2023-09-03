@@ -25,6 +25,7 @@ namespace ProductsManagement.Features.Product
         Description = "This API will show all products",
         OperationId = "ShowProducts",
         Tags = new[] { "Products" })]
+        [ProducesResponseType(200,Type = typeof(IEnumerable<ProductModel>))]
         public async Task<IActionResult> GetAllProducts()
         {
             var products = await _mediator.Send(new GetAllProductsQuery());
@@ -38,6 +39,7 @@ namespace ProductsManagement.Features.Product
         Description = "This API will show an specific product by given id",
         OperationId = "ShowProduct",
         Tags = new[] { "Products" })]
+        [ProducesResponseType(200,Type = typeof(ProductModel))]
         public async Task<ActionResult<ProductModel>> GetProduct(short id)
         {
             try

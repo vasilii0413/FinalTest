@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "drXqVzJhxNWP/XKD4vbUiB2gC/6oCUSuTqLcM2gJtUjEZXfd069oJ18IvOyL13+7p7TgVx0mLTMeLbj7BW+s5w==",
+  "dgSpecHash": "Ea85hEJCRrIDNRMqALGg9NG7Iwj6xZcSwkNXgmz6D6CS42R4Fwzcy8sKB1B1E3c38OoGa3NEHpO4Xl4m45H3FA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vasea\\Desktop\\ProductsManagement\\ProductsManagement\\ProductsManagement.csproj",
+  "projectFilePath": "C:\\Users\\vasea\\Documents\\GitHub\\FinalTest\\ProductsManagement\\ProductsManagement\\ProductsManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vasea\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\vasea\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

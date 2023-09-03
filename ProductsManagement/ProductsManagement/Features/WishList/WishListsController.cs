@@ -34,6 +34,7 @@ namespace ProductsManagement.Features.WishList
         Description = "This API will show all wishlists",
         OperationId = "ShowAllWishLists",
         Tags = new[] { "WishLists" })]
+        [ProducesResponseType(200,Type = typeof(IEnumerable<WishListModel>))]
         public async Task<IActionResult> GetAllWishLists()
         {
             var query = new GetAllWishListsQuery();
@@ -50,6 +51,7 @@ namespace ProductsManagement.Features.WishList
         Description = "This API will show the wishlist of the authorized user",
         OperationId = "ShowUserWishlist",
         Tags = new[] { "WishLists" })]
+        [ProducesResponseType(200,Type = typeof(WishListModel))]
         public async Task<IActionResult> GetWishlist()
         {
             var userId = _userManager.GetUserId(User);

@@ -4313,11 +4313,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vasea\\Desktop\\ProductsManagement\\ProductsManagement\\ProductsManagement.csproj",
+      "projectUniqueName": "C:\\Users\\vasea\\Documents\\GitHub\\FinalTest\\ProductsManagement\\ProductsManagement\\ProductsManagement.csproj",
       "projectName": "ProductsManagement",
-      "projectPath": "C:\\Users\\vasea\\Desktop\\ProductsManagement\\ProductsManagement\\ProductsManagement.csproj",
+      "projectPath": "C:\\Users\\vasea\\Documents\\GitHub\\FinalTest\\ProductsManagement\\ProductsManagement\\ProductsManagement.csproj",
       "packagesPath": "C:\\Users\\vasea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vasea\\Desktop\\ProductsManagement\\ProductsManagement\\obj\\",
+      "outputPath": "C:\\Users\\vasea\\Documents\\GitHub\\FinalTest\\ProductsManagement\\ProductsManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
